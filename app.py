@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load model
-model = load_model("potato_model.keras")
+model = load_model("potato_model.h5")
 
 # Class names
 class_names = ['Early_Blight', 'Late_Blight', 'Healthy']
